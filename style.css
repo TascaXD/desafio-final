@@ -19,25 +19,38 @@ main{
         transform: translate(-50%, -50%);
     }
 
-    .button{
-    position: relative;
+    .button{ /*IMAGENS*/
     border-radius: 3em;
-    width: 2em;
-    height: 2em;
-    display: block;    
-    
+    width: 2.5em;
+    height: 2.5em;
+    flex-direction: column; 
+    margin: 0.4em;
+    box-shadow: 1px 1px 1px 1px;
+    box-sizing: border-box;
+    }
+    .button:hover{
+border: 2px solid rgba(255, 255, 255, 0.637);
     }
  
-#button {
-    position: absolute;
-    flex-direction: column;
-    height: 100vh;  
-    width: 2em;
-    text-align: right;
-  
-}
+
 
 #redes-sociais{
+    text-align: right;
+    
+}
+
+.tela{
+    background-color: aquamarine;
+    height: 25em;
+    width: 16.7em;
     position: relative;
+    margin: auto;
+    bottom: 7.7em;
+    left: 0.03em;
+
+}
+#tela{
+    height: 30em;
+    width: 16.7em;
     
 }
